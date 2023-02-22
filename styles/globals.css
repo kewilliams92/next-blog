@@ -1,9 +1,20 @@
+/*Light Theme*/
+:root{
+    --background-color: #ffffff;
+    --link-color: #71d40d;
+    --text-color: #000000;
+}
+
+
+
 body {
     font-family: 'Inter', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 a {
-    color: #71d40d;
+    color: var(--link-color);
     text-decoration: none;
 }
 
