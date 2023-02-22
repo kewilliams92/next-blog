@@ -1,16 +1,31 @@
-import Link from "next/link"
+import Link from "next/link";
 
-function NavBar(){
-    return (
-        <div>
-            <Link href="/">
-                Home
-            </Link>
-            <Link href="/about">
-                About
-            </Link>
-        </div>
-    )
+function NavBar() {
+  return (
+    <nav className="NavBar">
+      <ul>
+        <li>
+          <Link href="/">Home</Link>
+        </li>
+        <li>
+          <Link href="/about">About</Link>
+        </li>
+      </ul>
+      <style jsx>{`
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            display: inline;
+        }
+        
+        li:not(:first-child){
+            margin-left: 0.75rem;
+        }
+      `}</style>
+    </nav>
+  );
 }
 
-export default NavBar
+export default NavBar;

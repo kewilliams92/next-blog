@@ -1,0 +1,12 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    color: #71d40d;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    text-decoration: underline;
+}

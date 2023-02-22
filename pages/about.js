@@ -1,12 +1,12 @@
-import NavBar from '../components/NavBar'
+import Head from 'next/head'
 
 function AboutPage(){
     console.log('AboutPage rendered')
     return (
         <>
-        <header>
-            <NavBar />
-        </header>
+        <Head>
+            <title>About- My Blog</title>
+        </Head>
         <main>
             <h1>About</h1>
         </main>

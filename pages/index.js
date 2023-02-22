@@ -1,15 +1,20 @@
+import Head from "next/head";
 import Link from "next/link";
-import NavBar from "../components/NavBar";
 
 function HomePage() {
   console.log("Home Page rendered");
   return (
     <>
-      <header>
-        <NavBar />
-      </header>
+        <Head>
+            <title>My Blog</title>
+        </Head>
       <main>
-        <h1>Home Page</h1>
+        <h1>My Blog</h1>
+        <ul>
+            <li> one </li>
+            <li> two </li>
+            <li> three </li>
+        </ul>
       </main>
     </>
   );
