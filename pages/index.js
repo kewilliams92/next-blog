@@ -11,7 +11,11 @@ function HomePage() {
       <main>
         <h1>My Blog</h1>
         <ul>
-            <li> one </li>
+            <li>
+                <Link href="/posts/first-post">
+                    First Post
+                </Link>
+            </li>
             <li> two </li>
             <li> three </li>
         </ul>
