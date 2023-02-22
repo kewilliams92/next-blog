@@ -10,7 +10,6 @@ export async function getStaticProps() {
 }
 
 function HomePage({ posts }) {
-  console.log("Home Page rendered", posts);
 
   return (
     <>
